@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Запрашивать у пользователя имя (метод javascript prompt). Если имя введено, то выводить "Привет, имя!". Если пользователь
+ не ввел имя или щелкнул cancel (значение null) выводить "Привет, незнакомец!" -->
+    <script>
+        var name = prompt('Ваше имя:');
+        if (name == null || name == '') {
+            alert("Привет, незнкомец!");
+        }
+        else {
+            alert("Привет : " + name);
+        }
+
+    </script>
+</body>
+
+</html>

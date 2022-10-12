@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Запрашивать у пользователя возраст (метод prompt()).
+В зависимости от введенного возраста выдавать сообщение «Вы слишком молоды» (в случае введенного значения менее 20 лет) 
+или «Вы нам подходите» (в случае введенного значения более или равного 20 годам). -->
+
+    <script>
+        var age = prompt('Введите свой возраст:');
+        if (age < 20) {
+            alert('Вы слишком молоды');
+        }
+        else {
+            alert('Вы нам подходите');
+        }
+    </script>
+</body>
+
+</html>

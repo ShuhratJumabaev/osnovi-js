@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- 2) В переменной min лежит число от 0 до 59. Определите в какую четверть часа попадает это число (в первую, вторую,
+    третью или
+    четвертую). -->
+    <script>
+        var min = prompt('Введите число от 0 до 59');
+        if (min >= 0 && min <= 15) {
+            alert('В первую половину часа')
+        }
+        else if (min >= 16 && min <= 30) {
+            alert('В вторую половину часа')
+        }
+        else if (min >= 31 && min <= 45) {
+            alert('В третью половину часа')
+        }
+        else {
+            alert('В четвертую половину часа')
+        }
+    </script>
+</body>
+
+</html>
